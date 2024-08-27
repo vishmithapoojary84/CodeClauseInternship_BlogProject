@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- favicon -->
+       <link rel="shortcut icon" href="images/Blog bliss.png" type="image/x-icon">
+       <title>BLOGBLISS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+    
+
+      <a href="index.html" class="nav__logo" >
+        <img src="images/Blog bliss.png" alt="">
+     BLOGBLISS
+  
+      
+    </a>
+      <ul class="nav__items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#featured"id="blog">Blogs</a></li>
+        <li><a href="about.html">About Us</a></li>
+     
+        <!-- <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Search blogs...">
+          <button id="search-button" class="search-button">Search</button>
+      </div> -->
+   
+      </ul>
+      
+      <!-- =====================hamburger menu================================== -->
+      <button id="open__nav-btn"><i class="fa-solid fa-bars"></i></button>
+      <button id="close__nav-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </nav>
+  <div class="about">
+    <div class="inner-section">
+        <h1>About Us</h1>
+        <p class="text">
+          <p>Welcome to BLOGBLISS!</p>
+          <p>We’re excited to have you here! At BLOGBLISS, we are dedicated to bringing you the best content in [list of topics: art, food, music, science and technology, travel, wildlife]. Our aim is to  inspire and inform you with engaging articles and multimedia.</p>
+
+          <h2>Our Passion</h2>
+          <p>We are a diverse team of writers, photographers, and creatives who share a love for exploring and sharing knowledge. From uncovering hidden art gems to diving into the latest tech trends, we strive to provide rich and captivating content for all our readers.</p>
+
+          <h2>What We Cover</h2>
+          <ul>
+            <li><strong>Art</strong>: Discover the latest trends and timeless masterpieces.</li>
+            <li><strong>Food</strong>: Explore mouthwatering recipes and culinary innovations.</li>
+            <li><strong>Music</strong>: Stay updated on new releases and classic hits.</li>
+            <li><strong>Science & Technology</strong>: Dive into groundbreaking discoveries and tech trends.</li>
+            <li><strong>Travel</strong>: Get inspired by unique destinations and travel tips.</li>
+            <li><strong>Wildlife</strong>: Learn about wildlife conservation and animal behavior.</li>
+        </ul>
+.
+        </p>
+      
+    </div>
+</div>
+    <!-- ==================================Footer==============================================  -->
+    <footer>
+      <div class="footer__socials">
+        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="container footer__container">
+        <article>
+          <h4> Categories</h4>
+            <ul>
+              <li><a href="">Art</a></li>
+              <li><a href="">Wild Life</a></li>
+              <li><a href="">Travel</a></li>
+              <li><a href="">Science & Technology</a></li>
+              <li><a href="">Food</a></li>
+              <li><a href="">Music</a></li>
+            </ul>
+       
+        </article>
+        <article>
+          <h4>Support</h4>
+            <ul>
+              <li><a href="">Online Support</a></li>
+              <li><a href="">Call Numbers</a></li>
+              <li><a href="">Emails</a></li>
+              <li><a href="">Social Support</a></li>
+              <li><a href="">Location</a></li>
+            
+            </ul>
+       
+        </article>
+        <article>
+          <h4> Blog</h4>
+            <ul>
+              <li><a href="">Safety</a></li>
+              <li><a href="">Repair</a></li>
+              <li><a href="">Recent</a></li>
+              <li><a href="">Popular</a></li>
+              <li><a href="">Categories</a></li>
+             
+            </ul>
+       
+        </article>
+        <article>
+          <h4>Permalinks</h4>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+             
+              <li><a href="">Services</a></li>
+           
+            </ul>
+       
+        </article>
+        
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; 2024 VISHMITHA</small>
+      </div>
+    </footer>
+
+   <!-- ==================================Footer ends==============================================  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+    var tl=gsap.timeline();
+   tl.from(".inner-section", {
+            x: 1900,          // Start from 100px to the right
+            opacity: 0,      // Start fully transparent
+            duration: 1.5,   // Duration of animation
+            ease: "power2.out" // Easing function for a smooth effect
+        });
+        tl.from(".inner-section h1", {
+          x: 1900,          // Start from 100px to the right
+            opacity: 0,      // Start fully transparent
+            duration: 1.5,   // Duration of animation
+            ease: "power2.out" ,
+            stagger:0.2,
+        })
+        tl.from(".inner-section  h2 ,p", {
+          x: 1900,          // Start from 100px to the right
+            opacity: 0,      // Start fully transparent
+            duration: 1.5,   // Duration of animation
+            ease: "power2.out" ,
+            stagger:0.2,
+        })
+   </script>
+</body>
+</html>

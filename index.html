@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <!-- favicon -->
+               <link rel="shortcut icon" href="images/Blog bliss.png" type="image/x-icon">
+  <title>BLOGBLISS</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- =====================font awesome icons======================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <!-- ===================== google font monteserta font ======================== -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- ====================navbar begins================================= -->
+  <nav>
+    <div class="container nav__container">
+    
+
+      <a href="index.html" class="nav__logo" >
+        <img src="images/Blog bliss.png" alt="">
+     BLOGBLISS
+  
+      
+    </a>
+      <ul class="nav__items">
+        <li><a href="#featured"id="blog">Blogs</a></li>
+        <li><a href="about.html">About Us</a></li>
+  
+        <!-- <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Search blogs...">
+          <button id="search-button" class="search-button">Search</button>
+      </div> -->
+      <div class="search-wrapper">
+        <input type="text" id="search-box" class="search-box" placeholder="Search..." />
+        <button id="search-submit" class="search-submit">Search
+        
+        </button>
+        <ul id="suggestions" class="suggestions-list"></ul>
+    </div>
+      </ul>
+      
+      <!-- =====================hamburger menu================================== -->
+      <button id="open__nav-btn"><i class="fa-solid fa-bars"></i></button>
+      <button id="close__nav-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </nav>
+
+  <div class="content">
+    <video autoplay loop muted playsinline class="background-vedio">
+      <source src="vedio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h1 >WELCOME TO BLOGBLISS</h1>
+    <a href="#featured" id="explore-link" >Explore</a>
+   
+  </div>
+
+<!-- ========================================elastic==================================================== -->
+
+<div class="illu">
+
+    
+   
+  
+<div id="string">
+  <svg width="1000" height="200" >
+    <path d="M 10 100 Q 500 100 990 100" stroke="#fe330a"stroke-width="4" fill="transparent"/>
+  </svg>
+
+<img src="images/illu1.avif" alt="">
+
+
+</div>
+<div id="string">
+  <svg width="1000" height="200" >
+    <path d="M 10 100 Q 500 100 990 100" stroke="#fe330a"stroke-width="4" fill="transparent"/>
+  </svg>
+  
+</div>
+
+</div>
+
+<!-- ========================================elastic==================================================== -->
+  <!-- ====================navbar ends================================= -->
+
+
+<!-- =======================================feautred article================================ -->
+<section class="featured" id="featured">
+  <div class="container post featured__container" data-category="Wild Life">
+    <div class="post__thumbnail">
+      <img src="images/post1.jpg" alt="">
+    </div>
+    <div class="post__info">
+      <a href="" class="category__button">Wild Life</a>
+      <h2 class="post__title"><a href="blog.html#post1">"Wild Wonders: Exploring the Beauty and Diversity of Wildlife"</a></h2>
+      <p class="post__body">
+        Welcome to Wild Wonders, where nature's untamed beauty and intricate mysteries come alive! Here, we embark on an exhilarating journey through the diverse realms of wildlife, uncovering the stories and struggles of the world’s most fascinating creatures.
+        
+       
+       
+      </p>
+      <div class="post__author">
+        <div class="post__author-avatar">
+          <img src="images/post1_author.webp" alt="">
+        </div>
+        <div class="post__author-info">
+          <h5>By:Jane Doe</h5>
+          <small>June 10,2022 - 07:23</small>
+          <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+         <button onclick="window.location.href='blog.html#post1'">Read more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =======================================feautred article ends================================ -->
+<!-- =================================================posts========================================= -->
+ <section class="posts">
+  <div class="container posts__container">
+    <article class="post"data-category="Wild Life">
+      <div class="post__thumbnail">
+        <img src="images/post2.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Wild Life</a>
+        <h2 class="post__title"><a href="">Untamed Beauty: Chronicles of the Wild</a></h2>
+        <p class="post__body">
+          Embark on a journey through the untouched landscapes and hidden corners of our planet with "Untamed Beauty: Chronicles of the Wild." This blog offers a vivid exploration of the incredible diversity of wildlife that thrives in the most remote and extraordinary habitats.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author1.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:John Mills</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post2'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+   
+    <article class="post"data-category="Art">
+      <div class="post__thumbnail">
+        <img src="images/post4.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Art</a>
+        <h2 class="post__title"><a href="">
+          
+          The Evolution of Modern Art
+        </a></h2>
+        <p class="post__body">
+Modern art has revolutionized traditional aesthetics, embracing abstraction and conceptual frameworks. It reflects cultural shifts and individual expression, redefining how we perceive visual creativity.
+
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author2.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Manoj Sharma</h5>
+            <small>July 1,2023 - 09:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post3'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Travel">
+      <div class="post__thumbnail">
+        <img src="images/post6.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Travel</a>
+        <h2 class="post__title"><a href="blog.html#post4">
+          
+          Exploring Hidden Gems: Off-the-Beaten-Path Destinations
+        </a></h2>
+        <p class="post__body">
+          Discovering lesser-known travel destinations offers unique experiences away from tourist crowds. These hidden gems provide authentic cultural encounters and breathtaking landscapes.
+
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author3.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Gill Finch</h5>
+            <small>August 12,2023 - 08:40</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post4'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Science & Technology">
+      <div class="post__thumbnail">
+        <img src="images/post8.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Science & Technology</a>
+        <h2 class="post__title"><a href="blog.html#post5">
+
+          Breakthroughs in Artificial Intelligence: Shaping the Future
+        </a></h2>
+        <p class="post__body">
+Artificial Intelligence (AI) is advancing rapidly, revolutionizing industries from healthcare to finance. Its applications are redefining problem-solving and decision-making processes on a global scale
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author4.jpeg" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Gurav Gupta</h5>
+            <small>MAY 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post5'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Food">
+      <div class="post__thumbnail">
+        <img src="images/post10.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Food</a>
+        <h2 class="post__title"><a href="blog.html#post6">
+          
+          The Art of Fusion Cuisine
+        </a></h2>
+        <p class="post__body">
+          Fusion cuisine blends culinary traditions, creating innovative dishes that merge diverse flavors and techniques. This culinary art form celebrates cultural diversity and culinary creativity on a plate.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author5.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:John Snow</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post6'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Music">
+      <div class="post__thumbnail">
+        <img src="images/post12.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Music</a>
+        <h2 class="post__title"><a href="blog.html#post7">
+
+          The Impact of Jazz on Modern Music
+        </a></h2>
+        <p class="post__body">
+Jazz has significantly influenced modern music genres with its improvisational style and complex rhythms. Its evolution has paved the way for new musical expressions and cultural movements.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author10.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Kiran Shah</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post7'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Art">
+      <div class="post__thumbnail">
+        <img src="images/post3.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Art</a>
+        <h2 class="post__title"><a href="blog.html#post8">
+          
+          Exploring Art Movements: From Impressionism to Surrealism
+        </a></h2>
+        <p class="post__body">
+          Art movements like Impressionism and Surrealism have reshaped artistic boundaries, introducing new techniques and perspectives. They challenge viewers to interpret art beyond realism and explore emotional and psychological dimensions.
+
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author6.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Can Yaman</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post8'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="post"data-category="Travel">
+      <div class="post__thumbnail">
+        <img src="images/post5.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Travel</a>
+        <h2 class="post__title"><a href="blog.html#post1"> The Allure of Off-the-Beaten-Path Travel</a></h2>
+        <p class="post__body">
+    
+
+          Exploring lesser-known travel destinations offers a unique escape from the usual tourist crowds. These hidden gems provide authentic experiences and breathtaking landscapes, allowing travelers to connect with local cultures and natural beauty in a more intimate way.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author7.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Arjun Poojary</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post9'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="post"data-category="Science & Technology">
+      <div class="post__thumbnail">
+        <img src="images/post7.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Science & Technology</a>
+        <h2 class="post__title"><a href="post.html">
+          
+          The Role of Quantum Computing in Tomorrow's Tech
+        </a></h2>
+        <p class="post__body">
+          Quantum computing promises to solve complex problems beyond the reach of classical computers. Its potential to revolutionize fields like cryptography and material science marks a new era in technology.
+
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author8.jpeg" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Anika Kapoor</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post10'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="post"data-category="Food">
+      <div class="post__thumbnail">
+        <img src="images/post9.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Food</a>
+        <h2 class="post__title"><a href="post.html">
+          
+          Farm-to-Table: The Rise of Sustainable Eating
+        </a></h2>
+        <p class="post__body">
+          Farm-to-table dining emphasizes locally sourced ingredients and sustainable practices. It connects consumers with their food origins, promoting health, sustainability, and community support.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author9.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            <h5>By:Mahesh Bhat</h5>
+            <small>June 18,2023 - 08:30</small>
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post11'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="post"data-category="Music">
+      <div class="post__thumbnail">
+        <img src="images/post11.jpg" alt="">
+      </div>
+      <div class="post__info">
+        <a href="" class="category__button">Music</a>
+        <h2 class="post__title"><a href="post.html">
+          
+          The Digital Revolution: How Technology is Shaping Music
+        </a></h2>
+        <p class="post__body">
+          Technology has transformed music production, distribution, and consumption. Digital tools and platforms allow artists unprecedented creative freedom and access to global audiences.
+
+
+        </p>
+        <div class="post__author">
+          <div class="post__author-avatar">
+            <img src="images/author10.webp" alt="">
+          </div>
+          <div class="post__author-info">
+            
+            
+            
+            <!-- <a href="blog.html" class="feautred__link">Read More</a> -->
+           <button onclick="window.location.href='blog.html#post12'">Read more</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  
+  </div>
+ </section>
+<!-- =================================================posts end========================================= -->
+ <!-- ==================================category buttons==============================================  -->
+  <!-- <section class="category__buttons">
+    <div class="container category__buttons-container">
+      <a href="" class="category__button">Art</a>
+      <a href="" class="category__button">Wild Life</a>
+      <a href="" class="category__button">Travel</a>
+      <a href="" class="category__button">Science & Technology</a>
+      <a href="" class="category__button">Food</a>
+      <a href="" class="category__button">Music</a>
+
+    </div>
+  </section> -->
+
+
+  <section class="category">
+    <h1 style="color:#0b0b0b;text-align: center;border-bottom: 4px solid black;">CATEGORIES</h1>
+    <img src="images/cute-ai-generated-cartoon-bunny_23-2150288872.avif" alt="">
+    <div id="wildlife" class="category-item" onclick="filterPosts('Wild Life')">
+ 
+      <h1 >WILD LIFE</h1>
+    </div>
+    <div id="art" class="category-item" onclick="filterPosts('Art')">
+      <h1>ART</h1>
+
+    </div>
+    <div id="travel" class="category-item" onclick="filterPosts('Travel')">
+      <h1>TRAVEL</h1>
+     
+    </div>
+    <div id="science" class="category-item" onclick="filterPosts('Science & Technology')">
+      <h1>SCIENCE & TECHNOLOGY</h1>
+  
+    </div>
+    <div id="food" class="category-item" onclick="filterPosts('Food')">
+      <h1>FOOD</h1>
+ 
+    </div>
+    <div id="music" class="category-item" onclick="filterPosts('Music')">
+      <h1>MUSIC</h1>
+      
+    </div>
+  </section>
+ <!-- ==================================category buttons  ends==============================================  -->
+   <!-- ==================================Footer==============================================  -->
+    <footer>
+      <div class="footer__socials">
+        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="container footer__container">
+        <article>
+          <h4> Categories</h4>
+          <ul>
+            <li><a href="#" onclick="filterPosts('Art')">Art</a></li>
+            <li><a href="#" onclick="filterPosts('Wild Life')">Wild Life</a></li>
+            <li><a href="#" onclick="filterPosts('Travel')">Travel</a></li>
+            <li><a href="#" onclick="filterPosts('Science & Technology')">Science & Technology</a></li>
+            <li><a href="#" onclick="filterPosts('Food')">Food</a></li>
+            <li><a href="#" onclick="filterPosts('Music')">Music</a></li>
+        </ul>
+       
+        </article>
+        <article>
+          <h4>Support</h4>
+            <ul>
+              <li><a href="">Online Support</a></li>
+              <li><a href="">0865785366</a></li>
+              <li><a href="">blogbliss@gmail.com</a></li>
+              <li><a href="">Social Support</a></li>
+              <li><a href="">Location</a></li>
+            
+            </ul>
+       
+        </article>
+        <article>
+          <h4> Blog</h4>
+            <ul>
+              <li><a href="">Safety</a></li>
+              <li><a href="">Repair</a></li>
+              <li><a href="">Recent</a></li>
+              <li><a href="">Popular</a></li>
+              <li><a href="">Categories</a></li>
+             
+            </ul>
+       
+        </article>
+        <article>
+          <h4>Permalinks</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+             
+              <li><a href="index.html">Blogs</a></li>
+           
+            </ul>
+       
+        </article>
+        
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; 2024 VISHMITHA</small>
+      </div>
+    </footer>
+
+   <!-- ==================================Footer ends==============================================  -->
+   <!-- ================================================gsap============================================= -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
